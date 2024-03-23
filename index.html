@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheat</title>
+</head>
+<body>
+    <a href="#a">Asynchronous</a>
+    <a href="#b">Callbacks</a>
+    <a href="#c">Promises</a>
+    <a href="#d">Async/Await</a>
+    <a href="#e">Closure</a>
+    <a href="#f">higher-order function</a>
+    <a href="#g">preventDefault()</a>
+    <a href="#h">JSON</a>
+    <a href="#i">Constructor Function</a>
+    <a href="#j">CAllback</a>
+    <li><a href="https://dpaste.org/qNSZS">Hoisting</a></li>
+
+
+   <li> <a href="https://dpaste.org/swTMp">function to convert key to value and value to key</a></li>
+   <li><a href="https://dpaste.org/mScBv">Write a function capable of receiving another function and a number ‘x’ as an
+    argument and then executing it after ‘x’ seconds</a></li>
+    <li><a href="https://dpaste.org/wNpZe">Design a private counter function which exposes increment, decrement and retrieve
+        functionalities- Create two buttons for user A and B- Hitting a user’s button
+        increments it’s counter by 1, and decrements the other user’s counter by 1 too.- First to reach
+        the value 10 wins. Display "Player A/B wins"</a></li>
+    <li><a href="https://dpaste.org/4JguS">Take an input from the user using an input HTML element, which becomes the current initial
+        string- Display the current value of our string inside
+        an ‘H3’ element- Implement the following 4 functionalities:- Find and replace:
+        Take the string to be found, and the replacement value, as a string input,
+        find it in our current string, and replace it.</a></li>
+    
+
+
+    <p id="a"><b>asynchronous</b> Operation is a non-blocking operations. Instead of waiting for a task to complete before moving on to the next one, JavaScript allows you to execute asynchronous operations and continue with other tasks while waiting for the asynchronous task to finish.</p>
+    <p id="b"><b>Callbacks</b> in JavaScript are functions that are passed as arguments to other functions and are executed after the completion of a particular operation or task. Callbacks are a way to handle asynchronous operations, such as fetching data from an API, reading files, or handling user input.</p>
+    <p id="c"><b>Promises</b> in JavaScript are a mechanism for handling asynchronous operations. They provide a cleaner and more structured way to work with asynchronous code compared to callbacks. A Promise represents a value that might be available now, or in the future, or never. Promises have three states: pending, resolved (fulfilled), or rejected.</p>
+    <p id="d">Async/Await is particularly useful for handling asynchronous operations in a sequential and straightforward manner.Async/Await is built on top of Promises and provides a more concise way to work with asynchronous code, making it look more like synchronous code.
+        <b>async</b> - indicating that it contains asynchronous code.
+        <b>await</b> - keyword is used to wait for the fetchData Promise to be resolved or rejected.</p>
+    <p id="e"> <b>Closure</b> is a combination of a function and the lexical environment within which that function was declared. This environment consists of the variables that were in scope at the time the closure was created. Closures allow a function to access and manipulate variables from its outer (enclosing) scope even after the outer function has finished execution.</p>
+    <p id="f">A <b>higher-order</b> function in JavaScript is a function that takes one or more functions as arguments or returns a function as its result.</p>
+    <P id="g">The <b>preventDefault()</b> method is used to stop the default behavior of an event. For example, when you submit a form, the default behavior is to reload the page. By calling event.preventDefault(), you can prevent this default behavior from occurring.</P>
+    <p id="h"><b>JSON</b> (JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is a text format that is language-independent.JSON represents data as key-value pairs similar to object literals in JavaScript.</p>
+    <p id="i">A <b>constructor function</b> in JavaScript is a special type of function that is used to create and initialize objects. It serves as a blueprint for creating multiple instances of similar objects with the same properties and methods.</p>
+    <p id="j">
+        <b>Callback</b> hell in JavaScript refers to a situation where you have multiple nested callbacks within asynchronous functions, leading to deeply nested and often hard-to-read code. This typically occurs when dealing with asynchronous operations such as reading files, making API requests, or handling events.</p>
+
+
+    <!-- <h2>JavaScript Closures</h2>
+    <p>Counting with a local variable.</p>
+    <button type="button" onclick="myFunction()">Count!</button>
+<p id="demo">0</p>
+<script>
+// Initialize the counter function
+const incrementCounter = add();
+function add() {
+    let counter = 0;
+
+    function plus() {
+        counter += 1;
+        return counter; // Return the updated counter value
+    }
+
+    return plus;
+}
+function myFunction() {
+    const updatedCounter = incrementCounter(); // Call the function to get the updated counter value
+    document.getElementById("demo").innerHTML = updatedCounter; // Set the updated counter value
+}
+</script> -->
+</body>
+</html>
